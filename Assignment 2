@@ -1,0 +1,13 @@
+create table orders
+(
+  order_id int,
+  customer_id int,
+  order_date date,
+  order_total decimal
+);
+insert into orders (order_id,customer_id,order_date,order_total)
+values (1221,109027651,'2023-07-01',4999);
+insert into orders (order_id,customer_id,order_date,order_total)
+values (1229,109028432,'202-07-03',1700);
+insert into orders (order_id,customer_id,order_date,order_total)
+values (1235,109029456,'2023-07-04',599);
